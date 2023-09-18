@@ -39,4 +39,4 @@ int print_integer(va_list args)
 	}
 
 	return (counter);
-i}
+}
