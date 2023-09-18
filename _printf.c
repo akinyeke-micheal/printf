@@ -28,6 +28,14 @@ int _printf(const char *format, ...)
 				printed_chars += print_percent();
 			else if (*format == 'd' || *format == 'i')
 				printed_chars += print_integer(args);
+			else if (*format == 'b')
+				printed_chars += print_binary(args);
+			else if (*format == 'u')
+				printed_chars += print_unsign(args);
+			else if (*format == 'o')
+				printed_chars += print_octal(args);
+			else if (*format == 'x' || *format == 'X')
+				printed_chars += print_hex(args, *format);
 		}
 		else
 		{
