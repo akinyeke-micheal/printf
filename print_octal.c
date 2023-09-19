@@ -18,3 +18,4 @@ int print_octal(va_list args)
 
 	return (count);
 }
+\n
