@@ -1,4 +1,3 @@
-#include <unistd.h>
 #include "main.h"
 /**
  * print_character - Print a character.
@@ -12,4 +11,4 @@ int print_character(va_list args)
 
 	return (_putchar(c));
 }
-\n
+

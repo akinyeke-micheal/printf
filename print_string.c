@@ -18,4 +18,4 @@ int print_string(va_list args)
 		_putchar(str[char_number]);
 	return (char_number);
 }
-\n
+

@@ -25,4 +25,4 @@ int print_hex(va_list args, char specifier)
 	}
 	return (count);
 }
-\n
+
